@@ -1,0 +1,71 @@
+<h2>Order Details</h2>
+<!-- <form *orderForm="ngForm"> -->
+<div class="container">
+    <div layout="row">
+        <mat-label style="font-weight: bold;"> Order No </mat-label>
+        <mat-label class="primary" style="margin-left: 15%;"> {{orderMaster.orderId}}</mat-label>
+        <input type="hidden" name="orderNo" [(ngModel)]="orderMaster.orderId" value="{{orderMaster.orderId}}">
+    </div>
+    <br />
+    <div layout="row">
+        <label style="font-weight: bold;">Customer</label>
+        <mat-form-field style="margin-left: 10%;">
+            <mat-label>Customer</mat-label>
+            <mat-select class="primary" [(ngModel)]="orderMaster.customerId" [(value)]="orderMaster.customerId">
+                <mat-option>-- Select Customer --</mat-option>
+                <mat-option *ngFor="let cust of customerData" value="{{cust.id}}">{{cust.customerName}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <mat-divider></mat-divider>
+    <div style="margin-top: 20px; padding-top: 10px; border: 1px groove;">
+
+        <div class="row" *ngFor="let product of orderMaster.orderDetailsProductWise; index as idx; last as isLast">
+
+            <div>
+                <label style="font-weight: bold;">Product</label><br />
+                <mat-form-field appearance="fill">
+                    <mat-label>Product</mat-label>
+                    <mat-select class="primary space" name="productid" [(ngModel)]="product.productId"
+                        (selectionChange)="displayPrice(idx)" [(value)]="product.productId">
+                        <mat-option *ngFor="let pdt of productData" value="{{pdt.id}}">{{pdt.productName}}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div>
+
+                <mat-label style="font-weight: bold;">Price</mat-label><br /><br />
+                <mat-label class="space">{{product.price}}</mat-label>
+
+            </div>
+            <div>
+                <mat-label style="font-weight: bold;">Quantity</mat-label><br />
+                <mat-form-field class="example-full-width">
+                    <mat-label>Product Qty</mat-label>
+                    <input name="Quantity" matInput (change)="calculateAmt(idx)" name="productQuantity_{{idx}}" placeholder="Ex. Quantity"
+                        [(ngModel)]="product.quantity">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-label style="font-weight: bold;">Total Amount</mat-label><br /><br />
+                <mat-label>₹ {{product.totalAmount | number : '2.2' }}</mat-label>
+            </div>
+            <div>
+
+                <button mat-icon-button color="warn" *ngIf="productArray.length > 1" (click)="removeInputControl(idx)">
+                    <mat-icon>remove_circle</mat-icon>
+                </button>
+                <button mat-icon-button color="primary" *ngIf="isLast" (click)="addInputControl()">
+                    <mat-icon>add_circle</mat-icon>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <button mat-raised-button color="primary" (click)="saveOrder()">Save</button>
+
+
+</div>
+<!-- </form>
+    {{orderForm.value | json }} -->

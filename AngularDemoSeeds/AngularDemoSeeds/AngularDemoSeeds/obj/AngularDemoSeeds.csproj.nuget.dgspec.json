@@ -1,0 +1,431 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.csproj": {}
+  },
+  "projects": {
+    "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Application\\AngularDemoSeeds.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Application\\AngularDemoSeeds.Application.csproj",
+        "projectName": "AngularDemoSeeds.Application",
+        "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Application\\AngularDemoSeeds.Application.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Model\\AngularDemoSeeds.Model.csproj": {
+                "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Model\\AngularDemoSeeds.Model.csproj"
+              },
+              "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Repository\\AngularDemoSeeds.Repository.csproj": {
+                "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Repository\\AngularDemoSeeds.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.EntityFrameworkCore\\AngularDemoSeeds.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.EntityFrameworkCore\\AngularDemoSeeds.EntityFrameworkCore.csproj",
+        "projectName": "AngularDemoSeeds.EntityFrameworkCore",
+        "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.EntityFrameworkCore\\AngularDemoSeeds.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Model\\AngularDemoSeeds.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Model\\AngularDemoSeeds.Model.csproj",
+        "projectName": "AngularDemoSeeds.Model",
+        "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Model\\AngularDemoSeeds.Model.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Repository\\AngularDemoSeeds.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Repository\\AngularDemoSeeds.Repository.csproj",
+        "projectName": "AngularDemoSeeds.Repository",
+        "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Repository\\AngularDemoSeeds.Repository.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.EntityFrameworkCore\\AngularDemoSeeds.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.EntityFrameworkCore\\AngularDemoSeeds.EntityFrameworkCore.csproj"
+              },
+              "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Model\\AngularDemoSeeds.Model.csproj": {
+                "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Model\\AngularDemoSeeds.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Utility\\AngularDemoSeeds.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Utility\\AngularDemoSeeds.Utility.csproj",
+        "projectName": "AngularDemoSeeds.Utility",
+        "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Utility\\AngularDemoSeeds.Utility.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Application\\AngularDemoSeeds.Application.csproj": {
+                "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Application\\AngularDemoSeeds.Application.csproj"
+              },
+              "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.EntityFrameworkCore\\AngularDemoSeeds.EntityFrameworkCore.csproj": {
+                "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.EntityFrameworkCore\\AngularDemoSeeds.EntityFrameworkCore.csproj"
+              },
+              "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Repository\\AngularDemoSeeds.Repository.csproj": {
+                "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Repository\\AngularDemoSeeds.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.csproj",
+        "projectName": "AngularDemoSeeds",
+        "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Utility\\AngularDemoSeeds.Utility.csproj": {
+                "projectPath": "D:\\Angular\\Task\\Doc\\New\\AngularDemoSeeds\\AngularDemoSeeds\\AngularDemoSeeds.Utility\\AngularDemoSeeds.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
